@@ -14,7 +14,7 @@
 
 VeriTeknik is a technology organization based in the Netherlands, specializing in AI data exchange solutions and open-source tools. We focus on creating innovative solutions that bridge the gap between AI systems and data management, with a particular emphasis on the Model Context Protocol (MCP) ecosystem.
 
-**Contact**: info@veriteknik.com  
+**Contact**: team@veritech.net 
 **Location**: Netherlands  
 **Website**: [https://www.veritech.net/](https://www.veritech.net/)
 
