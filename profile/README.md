@@ -31,7 +31,7 @@ Whether you use Claude, ChatGPT, Gemini, or any other AI model, plugged.in works
 
 *Note: Dashed lines in the ecosystem graph below represent features currently under development.*
 
-![Plugged.in Ecosystem Graph](profile/Screenshot-2025-10-09-at-01.22.18.jpg)
+![Plugged.in Ecosystem Graph](Screenshot-2025-10-09-at-01.22.18.jpg)
 
 ### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
 
