@@ -1,54 +1,6 @@
 # VeriTeknik
 
-<div align="center">
-  
-  **Building Model-Agnostic AI Infrastructure**
-  
-  [![GitHub followers](https://img.shields.io/github/followers/veriteknik?style=social)](https://github.com/veriteknik)
-  [![Website](https://img.shields.io/badge/Website-veritech.net-blue)](https://www.veritech.net/)
-  [![Twitter](https://img.shields.io/badge/Twitter-@VeriTeknik-1DA1F2?logo=twitter)](https://twitter.com/VeriTeknik)
-  [![Documentation](https://img.shields.io/badge/Docs-docs.plugged.in-green)](https://docs.plugged.in/)
-  
-</div>
-
-## 🎯 What We Do
-
-VeriTeknik develops **plugged.in** - a model-agnostic platform that gives any AI system unified access to:
-
-- **📚 Knowledge** - RAG-powered document libraries with contextual AI
-- **🧠 Memory** - Persistent context and conversation history across sessions  
-- **🔧 Tools** - Universal MCP (Model Context Protocol) server management
-
-Whether you use Claude, ChatGPT, Gemini, or any other AI model, plugged.in works seamlessly with all of them.
-
-## 🎥 Watch Plugged In Demo
-
-[![Plugged In Demo](https://img.youtube.com/vi/jzde41T1nYo/maxresdefault.jpg)](https://www.youtube.com/watch?v=jzde41T1nYo)
-
-*Click the thumbnail above to see plugged.in in action!*
-
-## 🌟 The Plugged.in Ecosystem
-
-*Note: Dashed lines in the ecosystem graph below represent features currently under development.*
-
-![Plugged.in Ecosystem Graph](Screenshot-2025-10-09-at-01.22.18.jpg)
-
-### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
-
-*One Platform. All AI Models. Unlimited Possibilities.*
-
-The central hub for managing Knowledge, Memory, and Tools across any AI model. Connect your favorite AI to your data, context, and capabilities without vendor lock-in.
-
-- **Technology**: TypeScript, Next.js, PostgreSQL
-- **Core Features**: 
-  - Universal RAG for any AI model
-  - Cross-model memory and context
-  - MCP server orchestration
-  - Social sharing and collaboration
-- **License**: AGPL-3.0
-- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app) [![GitHub forks](https://img.shields.io/github/forks/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app)
-
-### [pluggedin-mcp-proxy](https://github.com/veriteknik/pluggedin-mcp-proxy)
+![Plugged.in Ecosystem](Screenshot-2025-10-09-at-01.22.18.jpg)
 
 *One MCP Connection. Infinite Tool Access.*
 
@@ -74,14 +26,17 @@ Discover and share MCP servers with the community. Our registry provides a centr
 Integrate plugged.in capabilities into your applications with our official SDKs supporting Javascript, Go, and Python:
 
 ### [Plugged.inKit JS](https://github.com/VeriTeknik/pluggedinkit-js)
+
 - JavaScript/TypeScript SDK for Node.js and browser environments
 - [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-js?style=social)](https://github.com/veriteknik/pluggedinkit-js)
 
 ### [Plugged.inKit Go](https://github.com/VeriTeknik/pluggedinkit-go)
+
 - Go SDK for high-performance server applications
 - [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-go?style=social)](https://github.com/veriteknik/pluggedinkit-go)
 
 ### [Plugged.inKit Python](https://github.com/VeriTeknik/pluggedinkit-python)
+
 - Python SDK for AI/ML workflows and data science
 - [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-python?style=social)](https://github.com/veriteknik/pluggedinkit-python)
 
