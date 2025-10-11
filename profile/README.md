@@ -1,5 +1,6 @@
-<img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/Veriteknik-logo.png" width="426"  alt="VeriTeknik Logo" />
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/Veriteknik-logo.png" width="426"  alt="VeriTeknik Logo" />
+</div>
 <div align="center">
   
   **Building Model-Agnostic AI Infrastructure**
