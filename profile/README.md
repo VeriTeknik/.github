@@ -1,4 +1,4 @@
-# VeriTeknik
+![VeriTeknik](Veriteknik-logo.png)
 
 <div align="center">
   
