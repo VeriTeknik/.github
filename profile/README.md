@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/Veriteknik-logo.png" width="852" height="191" alt="VeriTeknik Logo" />
+<img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/Veriteknik-logo.png" width="426"  alt="VeriTeknik Logo" />
 
 <div align="center">
   
