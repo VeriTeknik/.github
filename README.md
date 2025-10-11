@@ -2,77 +2,92 @@
 
 <div align="center">
   
-  **The Crossroads for AI Data Exchanges**
+  **Building Model-Agnostic AI Infrastructure**
   
   [![GitHub followers](https://img.shields.io/github/followers/veriteknik?style=social)](https://github.com/veriteknik)
   [![Website](https://img.shields.io/badge/Website-veritech.net-blue)](https://www.veritech.net/)
   [![Twitter](https://img.shields.io/badge/Twitter-@VeriTeknik-1DA1F2?logo=twitter)](https://twitter.com/VeriTeknik)
+  [![Documentation](https://img.shields.io/badge/Docs-docs.plugged.in-green)](https://docs.plugged.in/)
   
 </div>
 
-## 🌍 About VeriTeknik
+## 🎯 What We Do
 
-VeriTeknik is a technology organization based in the Netherlands, specializing in AI data exchange solutions and open-source tools. We focus on creating innovative solutions that bridge the gap between AI systems and data management, with a particular emphasis on the Model Context Protocol (MCP) ecosystem.
+VeriTeknik develops **plugged.in** - a model-agnostic platform that gives any AI system unified access to:
 
-**Contact**: info@veriteknik.com  
-**Location**: Netherlands  
-**Website**: [https://www.veritech.net/](https://www.veritech.net/)
+- **📚 Knowledge** - RAG-powered document libraries with contextual AI
+- **🧠 Memory** - Persistent context and conversation history across sessions  
+- **🔧 Tools** - Universal MCP (Model Context Protocol) server management
 
-## 🚀 Our Projects
+Whether you use Claude, ChatGPT, Gemini, or any other AI model, plugged.in works seamlessly with all of them.
 
-### 🌟 Flagship: Plugged.in Ecosystem
+## 🎥 Watch Plugged In Demo
 
-![Plugged.in Ecosystem](profile/Screenshot-2025-10-09-at-01.22.18.jpg)
+[![Plugged In Demo](https://img.youtube.com/vi/jzde41T1nYo/maxresdefault.jpg)](https://www.youtube.com/watch?v=jzde41T1nYo)
 
-#### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
+*Click the thumbnail above to see plugged.in in action!*
 
-*The Crossroads for AI Data Exchanges*
+## 🌟 The Plugged.in Ecosystem
 
-A unified web interface for managing Model Context Protocol (MCP) servers, providing a collaborative social platform for sharing and discovering MCP integrations.
+*Note: Dashed lines in the ecosystem graph below represent features currently under development.*
 
-- **Technology**: TypeScript, Next.js
-- **Features**: User profiles, server sharing, collections, RAG integration, internationalization
+![Plugged.in Ecosystem Graph](profile/Screenshot-2025-10-09-at-01.22.18.jpg)
+
+### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
+
+*One Platform. All AI Models. Unlimited Possibilities.*
+
+The central hub for managing Knowledge, Memory, and Tools across any AI model. Connect your favorite AI to your data, context, and capabilities without vendor lock-in.
+
+- **Technology**: TypeScript, Next.js, PostgreSQL
+- **Core Features**: 
+  - Universal RAG for any AI model
+  - Cross-model memory and context
+  - MCP server orchestration
+  - Social sharing and collaboration
 - **License**: AGPL-3.0
-- ⭐ 24 stars | 🍴 5 forks
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app) [![GitHub forks](https://img.shields.io/github/forks/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app)
 
-#### [pluggedin-mcp-proxy](https://github.com/veriteknik/pluggedin-mcp-proxy)
+### [pluggedin-mcp-proxy](https://github.com/veriteknik/pluggedin-mcp-proxy)
 
-*Plugged.in MCP Server manages all your other MCPs in one MCP*
+*One MCP Connection. Infinite Tool Access.*
 
-A powerful MCP proxy server that provides a unified interface for managing multiple MCP servers through a single connection point.
+The intelligent proxy that manages all your MCP servers through a single connection, compatible with any MCP-enabled AI client.
 
 - **Technology**: TypeScript
-- **Features**: Unified MCP management, server orchestration, streamlined integrations
+- **Key Benefits**: Unified tool management, seamless integration, model-agnostic architecture
 - **License**: Apache-2.0
-- ⭐ 45 stars
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-mcp-proxy?style=social)](https://github.com/veriteknik/pluggedin-mcp-proxy)
 
-### 📚 Other Notable Projects
+### [MCP Registry](https://github.com/VeriTeknik/registry)
 
-#### [linux_kitap](https://github.com/veriteknik/linux_kitap)
+*A community driven registry service for MCP servers.*
 
-*Sistem Yöneticileri için Linux Kullanım Kılavuzu*
+Discover and share MCP servers with the community. Our registry provides a centralized hub for finding and publishing MCP server implementations.
 
-A comprehensive Linux usage guide for system administrators, written in Turkish. This resource provides in-depth knowledge for managing Linux systems effectively.
+- **Technology**: TypeScript
+- **License**: Apache-2.0
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/registry?style=social)](https://github.com/veriteknik/registry)
 
-- **Language**: Turkish
-- **Focus**: System administration, best practices
+## 🛠️ SDKs & Developer Tools
 
-#### [massDelete](https://github.com/veriteknik/massDelete)
+Integrate plugged.in capabilities into your applications with our official SDKs supporting Javascript, Go, and Python:
 
-*Fast, efficient & resource-friendly delete tool for Linux*
+### [Plugged.inKit JS](https://github.com/VeriTeknik/pluggedinkit-js)
+- JavaScript/TypeScript SDK for Node.js and browser environments
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-js?style=social)](https://github.com/veriteknik/pluggedinkit-js)
 
-A high-performance C utility designed to delete millions of files efficiently in Linux environments, optimized for minimal resource usage.
+### [Plugged.inKit Go](https://github.com/VeriTeknik/pluggedinkit-go)
+- Go SDK for high-performance server applications
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-go?style=social)](https://github.com/veriteknik/pluggedinkit-go)
 
-- **Technology**: C
-- **Use Case**: Large-scale file management, system cleanup
-- ⭐ 4 stars
+### [Plugged.inKit Python](https://github.com/VeriTeknik/pluggedinkit-python)
+- Python SDK for AI/ML workflows and data science
+- [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-python?style=social)](https://github.com/veriteknik/pluggedinkit-python)
 
-## 🎯 Our Focus Areas
+## 📚 Documentation
 
-- **🤖 AI Data Exchanges**: Building infrastructure for seamless AI-to-data interactions
-- **🔌 Model Context Protocol (MCP)**: Pioneering tools and platforms for the MCP ecosystem
-- **🐧 Linux System Administration**: Creating practical tools for system administrators
-- **🌐 Open Source Development**: Contributing to the global open-source community
+For comprehensive guides, API references, and tutorials, visit our official documentation at [docs.plugged.in](https://docs.plugged.in/).
 
 ## 🤝 Contributing
 
@@ -86,36 +101,10 @@ We welcome contributions to all our projects! Whether you're interested in:
 
 Please check out our individual project repositories for specific contribution guidelines.
 
-## 📊 Technology Stack
-
-Our projects utilize modern, robust technologies:
-
-- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
-- **Backend**: Node.js, PostgreSQL, Drizzle ORM
-- **Infrastructure**: Docker, systemd, Nginx
-- **Languages**: TypeScript, JavaScript, C, CSS
-
-## 🔗 Connect With Us
-
-- **GitHub**: [@veriteknik](https://github.com/veriteknik)
-- **Twitter/X**: [@VeriTeknik](https://twitter.com/VeriTeknik)
-- **Website**: [veritech.net](https://www.veritech.net/)
-- **Email**: info@veriteknik.com
-
-## 📜 License
-
-Our projects are released under various open-source licenses:
-
-- Plugged.in App: AGPL-3.0
-- Plugged.in MCP Proxy: Apache-2.0
-- Other projects: See individual repositories
-
 ---
 
 <div align="center">
   
   *Building the future of AI data exchanges, one protocol at a time.*
-  
-  Made with ❤️ in the Netherlands 🇳🇱
   
 </div>
