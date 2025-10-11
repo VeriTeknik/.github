@@ -24,7 +24,7 @@ Whether you use Claude, ChatGPT, Gemini, or any other AI model, plugged.in works
 
 ## 🎥 Watch Plugged In Demo
 
-[![Plugged In Demo](https://img.youtube.com/vi/jzde41T1nYo/maxresdefault.jpg)](https://www.youtube.com/watch?v=jzde41T1nYo)
+[![Plugged In Demo](https://img.youtube.com/vi/iQBhMUUHpUQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=iQBhMUUHpUQ)
 
 *Click the thumbnail above to see plugged.in in action!*
 
