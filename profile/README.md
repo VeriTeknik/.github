@@ -1,4 +1,4 @@
-<img src="profile/veriteknik-logo.png" width="852" height="191" alt="VeriTeknik Logo" />
+<img src="profile/Veriteknik-logo.png" width="852" height="191" alt="VeriTeknik Logo" />
 
 <div align="center">
   
