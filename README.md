@@ -22,7 +22,10 @@ VeriTeknik is a technology organization based in the Netherlands, specializing i
 
 ### 🌟 Flagship: Plugged.in Ecosystem
 
+![Plugged.in Ecosystem](profile/Screenshot-2025-10-09-at-01.22.18.jpg)
+
 #### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
+
 *The Crossroads for AI Data Exchanges*
 
 A unified web interface for managing Model Context Protocol (MCP) servers, providing a collaborative social platform for sharing and discovering MCP integrations.
@@ -33,6 +36,7 @@ A unified web interface for managing Model Context Protocol (MCP) servers, provi
 - ⭐ 24 stars | 🍴 5 forks
 
 #### [pluggedin-mcp-proxy](https://github.com/veriteknik/pluggedin-mcp-proxy)
+
 *Plugged.in MCP Server manages all your other MCPs in one MCP*
 
 A powerful MCP proxy server that provides a unified interface for managing multiple MCP servers through a single connection point.
@@ -45,15 +49,16 @@ A powerful MCP proxy server that provides a unified interface for managing multi
 ### 📚 Other Notable Projects
 
 #### [linux_kitap](https://github.com/veriteknik/linux_kitap)
+
 *Sistem Yöneticileri için Linux Kullanım Kılavuzu*
 
 A comprehensive Linux usage guide for system administrators, written in Turkish. This resource provides in-depth knowledge for managing Linux systems effectively.
 
 - **Language**: Turkish
 - **Focus**: System administration, best practices
-- ⭐ 34 stars
 
 #### [massDelete](https://github.com/veriteknik/massDelete)
+
 *Fast, efficient & resource-friendly delete tool for Linux*
 
 A high-performance C utility designed to delete millions of files efficiently in Linux environments, optimized for minimal resource usage.
@@ -72,6 +77,7 @@ A high-performance C utility designed to delete millions of files efficiently in
 ## 🤝 Contributing
 
 We welcome contributions to all our projects! Whether you're interested in:
+
 - Adding new features
 - Fixing bugs
 - Improving documentation
@@ -83,6 +89,7 @@ Please check out our individual project repositories for specific contribution g
 ## 📊 Technology Stack
 
 Our projects utilize modern, robust technologies:
+
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS
 - **Backend**: Node.js, PostgreSQL, Drizzle ORM
 - **Infrastructure**: Docker, systemd, Nginx
@@ -98,6 +105,7 @@ Our projects utilize modern, robust technologies:
 ## 📜 License
 
 Our projects are released under various open-source licenses:
+
 - Plugged.in App: AGPL-3.0
 - Plugged.in MCP Proxy: Apache-2.0
 - Other projects: See individual repositories
