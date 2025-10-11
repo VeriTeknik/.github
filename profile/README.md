@@ -1,4 +1,4 @@
-![VeriTeknik](Veriteknik-logo.png)
+<img src="profile/veriteknik-logo.png" width="852" height="191" alt="VeriTeknik Logo" />
 
 <div align="center">
   
