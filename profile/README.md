@@ -49,10 +49,6 @@ VeriTeknik builds **plugged.in** — a model-agnostic layer that gives any AI sy
 
 ## 🌟 The Plugged.in Ecosystem
 
-*Note: Dashed lines in the ecosystem graph below represent features currently under development.*
-
-![Plugged.in Ecosystem Graph](pluggedin.png)
-
 ### [pluggedin-app](https://github.com/veriteknik/pluggedin-app)
 *One Platform. All AI Models. Unlimited Possibilities.*
 
