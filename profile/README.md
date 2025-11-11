@@ -52,7 +52,7 @@ VeriTeknik builds **plugged.in** — a model-agnostic layer that gives any AI sy
 
 ### Core Platform
 
-#### [pluggedin-app](https://github.com/veriteknik/pluggedin-app) ![v2.17.0](https://img.shields.io/badge/version-v2.17.0-blue)
+#### [pluggedin-app](https://github.com/veriteknik/pluggedin-app) ![v2.18.0](https://img.shields.io/badge/version-v2.18.0-blue)
 *One Platform. All AI Models. Unlimited Possibilities.*
 
 The hub for managing **Knowledge**, **Memory**, and **Tools** across any AI model.
@@ -168,12 +168,123 @@ Complete monitoring infrastructure with Prometheus, Grafana, Loki, and Traefik.
 
 ---
 
+## 🗺️ Repository Map
+
+```mermaid
+graph TB
+    %% Core Platform
+    subgraph Core["🎯 Core Platform"]
+        APP["<b>pluggedin-app</b><br/>v2.18.0 | MIT<br/>Next.js 15 Platform"]
+        MCP["<b>pluggedin-mcp-proxy</b><br/>v1.11.0 | Apache-2.0<br/>MCP Proxy Server"]
+        RAG["<b>plugged_in_v3_server</b><br/>v0.1.0<br/>FastAPI RAG Backend"]
+    end
+
+    %% SDKs
+    subgraph SDKs["📦 Official SDKs"]
+        JS["<b>pluggedinkit-js</b><br/>v1.0.1 | MIT<br/>JavaScript/TypeScript SDK"]
+        PY["<b>pluggedinkit-python</b><br/>v1.0.1 | MIT<br/>Python SDK"]
+        GO["<b>pluggedinkit-go</b><br/>Go 1.24+<br/>Go SDK"]
+    end
+
+    %% Infrastructure
+    subgraph Infra["🏗️ Infrastructure"]
+        REG["<b>registry-proxy</b><br/>v1.0.0 | MIT<br/>Enhanced MCP Registry"]
+        DOCS["<b>pluggedin-docs</b><br/>Mintlify<br/>Documentation Site"]
+    end
+
+    %% New Projects
+    subgraph New["🆕 New Strategic Projects"]
+        OBS["<b>pluggedin-observability</b><br/>Prometheus + Grafana<br/>Observability Stack"]
+        PAP["<b>PAP</b><br/>v1.0 | Apache-2.0<br/>Agent Protocol"]
+    end
+
+    %% Testing
+    subgraph Test["🧪 Testing"]
+        SDK_TEST["<b>SDK_tests</b><br/>Cross-SDK Testing"]
+    end
+
+    %% External Services
+    PG[(PostgreSQL)]
+    REDIS[(Redis)]
+    MILVUS[(Milvus)]
+
+    %% Relationships - Core Platform
+    APP -->|depends on| RAG
+    APP -->|depends on| MCP
+    APP -->|uses| PG
+    APP -->|uses| REDIS
+    MCP -->|integrates| APP
+    RAG -->|uses| PG
+    RAG -->|uses| MILVUS
+
+    %% Relationships - SDKs
+    JS -->|calls API| APP
+    PY -->|calls API| APP
+    GO -->|calls API| APP
+    SDK_TEST -->|tests| JS
+    SDK_TEST -->|tests| PY
+    SDK_TEST -->|tests| GO
+
+    %% Relationships - Infrastructure
+    REG -->|uses| PG
+    DOCS -->|documents| APP
+    DOCS -->|documents| MCP
+    DOCS -->|documents| RAG
+    DOCS -->|documents| JS
+    DOCS -->|documents| PY
+    DOCS -->|documents| GO
+    DOCS -->|documents| REG
+    DOCS -->|documents| OBS
+    DOCS -->|documents| PAP
+
+    %% Relationships - Observability
+    OBS -->|monitors| APP
+    OBS -->|monitors| MCP
+    OBS -->|monitors| RAG
+    OBS -->|monitors| REG
+
+    %% Relationships - PAP
+    PAP -.->|future integration| MCP
+
+    %% Links
+    click APP "https://github.com/VeriTeknik/pluggedin-app" "pluggedin-app on GitHub"
+    click MCP "https://github.com/VeriTeknik/pluggedin-mcp-proxy" "pluggedin-mcp-proxy on GitHub"
+    click RAG "https://github.com/VeriTeknik/plugged_in_v3_server" "plugged_in_v3_server on GitHub"
+    click JS "https://github.com/VeriTeknik/pluggedinkit-js" "pluggedinkit-js on GitHub"
+    click PY "https://github.com/VeriTeknik/pluggedinkit-python" "pluggedinkit-python on GitHub"
+    click GO "https://github.com/VeriTeknik/pluggedinkit-go" "pluggedinkit-go on GitHub"
+    click REG "https://github.com/VeriTeknik/registry-proxy" "registry-proxy on GitHub"
+    click DOCS "https://github.com/VeriTeknik/pluggedin-docs" "pluggedin-docs on GitHub"
+    click OBS "https://github.com/VeriTeknik/pluggedin-observability" "pluggedin-observability on GitHub"
+    click PAP "https://github.com/VeriTeknik/PAP" "PAP on GitHub"
+    click SDK_TEST "https://github.com/VeriTeknik/SDK_tests" "SDK_tests on GitHub"
+
+    %% Styling
+    classDef coreStyle fill:#667eea,stroke:#5a67d8,stroke-width:3px,color:#fff
+    classDef sdkStyle fill:#48bb78,stroke:#38a169,stroke-width:2px,color:#fff
+    classDef infraStyle fill:#ed8936,stroke:#dd6b20,stroke-width:2px,color:#fff
+    classDef newStyle fill:#f56565,stroke:#e53e3e,stroke-width:3px,color:#fff
+    classDef testStyle fill:#ecc94b,stroke:#d69e2e,stroke-width:2px,color:#000
+    classDef dbStyle fill:#4299e1,stroke:#3182ce,stroke-width:2px,color:#fff
+
+    class APP,MCP,RAG coreStyle
+    class JS,PY,GO sdkStyle
+    class REG,DOCS infraStyle
+    class OBS,PAP newStyle
+    class SDK_TEST testStyle
+    class PG,REDIS,MILVUS dbStyle
+```
+
+*Click on any repository box to visit its GitHub page.*
+
+---
+
 ## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     Plugged.in Platform                      │
-│                   (pluggedin-app v2.17.0)                    │
+│                   (pluggedin-app v2.18.0)                    │
 │         Knowledge · Memory · Tools · Collaboration           │
 └─────────────────────┬───────────────────────────────────────┘
                       │
