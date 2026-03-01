@@ -74,14 +74,6 @@ Unified MCP proxy with streamable HTTP support, OAuth token management, and AI p
 [![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-mcp-proxy?style=social)](https://github.com/veriteknik/pluggedin-mcp-proxy)
 [![npm](https://img.shields.io/npm/v/@pluggedin/pluggedin-mcp-proxy)](https://www.npmjs.com/package/@pluggedin/pluggedin-mcp-proxy)
 
-#### [plugged_in_v3_server](https://github.com/veriteknik/plugged_in_v3_server) ![v0.1.0](https://img.shields.io/badge/version-v0.1.0-blue)
-*AI document management with RAG capabilities.*
-
-FastAPI backend with vector search, real-time streaming chat, and document processing.
-
-- **Tech:** Python 3.11+, FastAPI, Milvus, PostgreSQL, OpenAI GPT-4
-- **Features:** PDF/DOCX processing, semantic search, context-aware responses, SSE streaming
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/plugged_in_v3_server?style=social)](https://github.com/veriteknik/plugged_in_v3_server)
 
 ---
 
