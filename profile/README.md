@@ -1,372 +1,141 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/Veriteknik-logo.png" width="426" alt="VeriTeknik Logo" />
+
+<img src="https://raw.githubusercontent.com/VeriTeknik/.github/refs/heads/main/profile/pluggedin-logo.png" width="200" alt="plugged.in" />
+
+### AI memory that grows with you.
+
+**Persistent memory · Collective intelligence · Jungian archetypes**
+
+[![Plugin Version](https://img.shields.io/badge/plugin-v1.0.0-blue)](https://github.com/VeriTeknik/pluggedin-plugin)
+[![Platform Version](https://img.shields.io/badge/platform-v3.2.0-blue)](https://github.com/VeriTeknik/pluggedin-app)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/VeriTeknik/pluggedin-plugin/blob/main/LICENSE)
+[![Docs](https://img.shields.io/badge/docs-docs.plugged.in-brightgreen)](https://docs.plugged.in)
+
+[Website](https://plugged.in) · [Documentation](https://docs.plugged.in) · [Plugin Repo](https://github.com/VeriTeknik/pluggedin-plugin) · [Platform Repo](https://github.com/VeriTeknik/pluggedin-app)
+
 </div>
 
-<div align="center">
-
-**Knowledge · Memory · Tools — one control plane, every model**
-
-[![GitHub followers](https://img.shields.io/github/followers/veriteknik?style=social)](https://github.com/veriteknik)
-[![Website](https://img.shields.io/badge/Website-veritech.net-blue)](https://www.veritech.net/)
-[![Twitter](https://img.shields.io/badge/Twitter-@VeriTeknik-1DA1F2?logo=twitter)](https://twitter.com/VeriTeknik)
-[![Documentation](https://img.shields.io/badge/Docs-docs.plugged.in-green)](https://docs.plugged.in/)
-[![Memory Essay](https://img.shields.io/badge/Essay-Memory%20Architecture-black?logo=medium)](https://medium.com/@cem.karaca/building-digital-consciousness-a-memory-architecture-inspired-by-human-cognition-437412791044)
-[![PAP Essay](https://img.shields.io/badge/Essay-Kill%20Switch%20Protocol-red?logo=medium)](https://medium.com/@cem.karaca/pap-the-kill-switch-protocol-turning-ai-agents-from-loose-cannons-into-starfleet-d9aa531c4ca4?source=friends_link&sk=583966241e4e7c8529e459045fc2e176)
-
-</div>
-
 ---
 
-## 🎯 What We Do
-
-VeriTeknik builds **plugged.in** — a model-agnostic layer that gives any AI system unified access to your:
-
-- **📚 Knowledge** — Document ingestion, metadata, and retrieval (RAG) so answers cite *your* sources.
-- **🧠 Memory** — Durable context that travels across tools and sessions (focus → short-term → long-term).
-  - Our memory philosophy: causality-aware, tiered retention, and promotion/TTL policies.
-    **Read the essay:** *Building Digital Consciousness: A Memory Architecture Inspired by Human Cognition* →
-    https://medium.com/@cem.karaca/building-digital-consciousness-a-memory-architecture-inspired-by-human-cognition-437412791044
-- **🔧 Tools** — Universal **MCP** (Model Context Protocol) orchestration: install once, use everywhere.
-
-**Works with** Claude, ChatGPT, Cursor/Cline, VS Code, LM Studio, and more — without vendor lock-in.
-
----
-
-## 🧭 Principles
-
-- **Standards-first:** MCP • OAuth2/OIDC • JSON-RPC/JSON Schema
-- **Governance:** workspaces, permissions, audit trails, export
-- **Interoperability:** one tool/knowledge/memory layer across all clients
-
----
-
-## 🎥 Watch Plugged.in Demo
-
-[![Plugged In Demo](https://img.youtube.com/vi/iQBhMUUHpUQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=iQBhMUUHpUQ)
-
-*Click the thumbnail to see plugged.in in action.*
-
----
-
-## 🌟 The Plugged.in Ecosystem
-
-### Core Platform
-
-#### [pluggedin-app](https://github.com/veriteknik/pluggedin-app) ![v2.18.0](https://img.shields.io/badge/version-v2.18.0-blue)
-*One Platform. All AI Models. Unlimited Possibilities.*
-
-The hub for managing **Knowledge**, **Memory**, and **Tools** across any AI model.
-
-- **Tech:** TypeScript, Next.js 15, PostgreSQL 18, React 19
-- **Core Features:** Universal RAG, cross-model memory, MCP orchestration, 6-language i18n (en/tr/zh/hi/ja/nl)
-- **License:** MIT ✨
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app)
-[![GitHub forks](https://img.shields.io/github/forks/veriteknik/pluggedin-app?style=social)](https://github.com/veriteknik/pluggedin-app)
-
-#### [pluggedin-mcp-proxy](https://github.com/veriteknik/pluggedin-mcp-proxy) ![v1.11.0](https://img.shields.io/badge/version-v1.11.0-blue)
-*One MCP connection. Infinite tool access.*
-
-Unified MCP proxy with streamable HTTP support, OAuth token management, and AI playground.
-
-- **Tech:** TypeScript, Node.js, Express
-- **Benefits:** Unified tool management, policy & governance, STDIO/SSE/HTTP support
-- **License:** Apache-2.0
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-mcp-proxy?style=social)](https://github.com/veriteknik/pluggedin-mcp-proxy)
-[![npm](https://img.shields.io/npm/v/@pluggedin/pluggedin-mcp-proxy)](https://www.npmjs.com/package/@pluggedin/pluggedin-mcp-proxy)
-
-
----
-
-### Official SDKs
-
-Integrate plugged.in into your apps with official SDKs:
-
-#### [pluggedinkit-js](https://github.com/VeriTeknik/pluggedinkit-js) ![v1.0.1](https://img.shields.io/badge/version-v1.0.1-blue)
-JavaScript/TypeScript SDK for Node.js & browser
-
-- **License:** MIT
-- **Install:** `npm install pluggedinkit-js`
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-js?style=social)](https://github.com/veriteknik/pluggedinkit-js)
-[![npm](https://img.shields.io/npm/v/pluggedinkit-js)](https://www.npmjs.com/package/pluggedinkit-js)
-
-#### [pluggedinkit-python](https://github.com/VeriTeknik/pluggedinkit-python) ![v1.0.1](https://img.shields.io/badge/version-v1.0.1-blue)
-Python SDK with sync/async clients for AI/ML workflows
-
-- **License:** MIT
-- **Install:** `pip install pluggedinkit`
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-python?style=social)](https://github.com/veriteknik/pluggedinkit-python)
-[![PyPI](https://img.shields.io/pypi/v/pluggedinkit)](https://pypi.org/project/pluggedinkit/)
-
-#### [pluggedinkit-go](https://github.com/VeriTeknik/pluggedinkit-go) ![Go 1.24+](https://img.shields.io/badge/go-1.24+-00ADD8)
-High-performance Go SDK with full type safety
-
-- **Install:** `go get github.com/veriteknik/pluggedinkit-go`
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedinkit-go?style=social)](https://github.com/veriteknik/pluggedinkit-go)
-
----
-
-### Infrastructure
-
-#### [registry-proxy](https://github.com/VeriTeknik/registry-proxy) ![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
-*Enhanced MCP Registry with PostgreSQL backend and rating system.*
-
-- **Tech:** Go (Gin), PostgreSQL, Traefik
-- **Features:** Rating system, installation tracking, 1,600+ servers indexed
-- **License:** MIT
-- **Deployment:** https://registry.plugged.in
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/registry-proxy?style=social)](https://github.com/veriteknik/registry-proxy)
-
-#### [pluggedin-docs](https://github.com/VeriTeknik/pluggedin-docs)
-*Comprehensive platform documentation.*
-
-- **Platform:** Mintlify
-- **Content:** 60+ pages covering platform, SDKs, API reference, tutorials
-- **Live:** https://docs.plugged.in
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-docs?style=social)](https://github.com/veriteknik/pluggedin-docs)
-
----
-
-### 🆕 New: Observability & Protocol
-
-#### [pluggedin-observability](https://github.com/VeriTeknik/pluggedin-observability) 🔥
-*Production-grade full-stack observability for the Plugged.in ecosystem.*
-
-Complete monitoring infrastructure with Prometheus, Grafana, Loki, and Traefik.
-
-- **Stack:** Prometheus v2.48.0, Grafana v10.2.2, Loki v2.9.3, Traefik v2.10
-- **Features:** Pre-configured dashboards, alert rules, log aggregation, metrics collection
-- **Monitors:** pluggedin-app, pluggedin-mcp-proxy, RAG API, registry-proxy, PostgreSQL
-- **Deployment:** https://monitoring.plugged.in
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/pluggedin-observability?style=social)](https://github.com/veriteknik/pluggedin-observability)
-
-#### [PAP (Plugged.in Agent Protocol)](https://github.com/VeriTeknik/PAP) ![v1.0](https://img.shields.io/badge/RFC-v1.0%20Stable-success) 🚀
-*Comprehensive framework for autonomous agent lifecycle management.*
-
-**"Autonomy without anarchy"** — Agents run independently with Station oversight.
-
-- **Status:** Stable Candidate (RFC-001 v1.0 Complete)
-- **Protocol:** Protocol Buffers v3, gRPC/HTTP/2
-- **Architecture:** Dual-profile (PAP-CP for control plane, PAP-Hooks for open I/O)
-- **Key Innovation:** Zombie-prevention via strict heartbeat/metrics separation (the "kill switch protocol")
-- **Security:** mTLS + Ed25519 signatures + OAuth 2.1 + DNS-based identity
-- **Interoperability:** Native MCP tool support, A2A peer communication
-- **SDKs Planned:** TypeScript, Python, Rust, Go
-- **License:** Apache-2.0
-[![GitHub Repo stars](https://img.shields.io/github/stars/veriteknik/PAP?style=social)](https://github.com/veriteknik/PAP)
-
-**Read More:**
-- **RFC Specification:** [Complete protocol specification](https://github.com/VeriTeknik/PAP) with lifecycle states, security model, and deployment architecture
-- **The Kill Switch Protocol:** [Turning AI Agents from Loose Cannons into Starfleet](https://medium.com/@cem.karaca/pap-the-kill-switch-protocol-turning-ai-agents-from-loose-cannons-into-starfleet-d9aa531c4ca4?source=friends_link&sk=583966241e4e7c8529e459045fc2e176) — Deep dive into PAP's design philosophy
-
----
-
-## 🗺️ Repository Map
-
-```mermaid
-graph TB
-    %% Core Platform
-    subgraph Core["🎯 Core Platform"]
-        APP["<b>pluggedin-app</b><br/>v2.18.0 | MIT<br/>Next.js 15 Platform"]
-        MCP["<b>pluggedin-mcp-proxy</b><br/>v1.11.0 | Apache-2.0<br/>MCP Proxy Server"]
-        RAG["<b>plugged_in_v3_server</b><br/>v0.1.0<br/>FastAPI RAG Backend"]
-    end
-
-    %% SDKs
-    subgraph SDKs["📦 Official SDKs"]
-        JS["<b>pluggedinkit-js</b><br/>v1.0.1 | MIT<br/>JavaScript/TypeScript SDK"]
-        PY["<b>pluggedinkit-python</b><br/>v1.0.1 | MIT<br/>Python SDK"]
-        GO["<b>pluggedinkit-go</b><br/>Go 1.24+<br/>Go SDK"]
-    end
-
-    %% Infrastructure
-    subgraph Infra["🏗️ Infrastructure"]
-        REG["<b>registry-proxy</b><br/>v1.0.0 | MIT<br/>Enhanced MCP Registry"]
-        DOCS["<b>pluggedin-docs</b><br/>Mintlify<br/>Documentation Site"]
-    end
-
-    %% New Projects
-    subgraph New["🆕 New Strategic Projects"]
-        OBS["<b>pluggedin-observability</b><br/>Prometheus + Grafana<br/>Observability Stack"]
-        PAP["<b>PAP</b><br/>v1.0 | Apache-2.0<br/>Agent Protocol"]
-    end
-
-    %% Testing
-    subgraph Test["🧪 Testing"]
-        SDK_TEST["<b>SDK_tests</b><br/>Cross-SDK Testing"]
-    end
-
-    %% External Services
-    PG[(PostgreSQL)]
-    REDIS[(Redis)]
-    MILVUS[(Milvus)]
-
-    %% Relationships - Core Platform
-    APP -->|depends on| RAG
-    APP -->|depends on| MCP
-    APP -->|uses| PG
-    APP -->|uses| REDIS
-    MCP -->|integrates| APP
-    RAG -->|uses| PG
-    RAG -->|uses| MILVUS
-
-    %% Relationships - SDKs
-    JS -->|calls API| APP
-    PY -->|calls API| APP
-    GO -->|calls API| APP
-    SDK_TEST -->|tests| JS
-    SDK_TEST -->|tests| PY
-    SDK_TEST -->|tests| GO
-
-    %% Relationships - Infrastructure
-    REG -->|uses| PG
-    DOCS -->|documents| APP
-    DOCS -->|documents| MCP
-    DOCS -->|documents| RAG
-    DOCS -->|documents| JS
-    DOCS -->|documents| PY
-    DOCS -->|documents| GO
-    DOCS -->|documents| REG
-    DOCS -->|documents| OBS
-    DOCS -->|documents| PAP
-
-    %% Relationships - Observability
-    OBS -->|monitors| APP
-    OBS -->|monitors| MCP
-    OBS -->|monitors| RAG
-    OBS -->|monitors| REG
-
-    %% Relationships - PAP
-    PAP -.->|future integration| MCP
-
-    %% Links
-    click APP "https://github.com/VeriTeknik/pluggedin-app" "pluggedin-app on GitHub"
-    click MCP "https://github.com/VeriTeknik/pluggedin-mcp-proxy" "pluggedin-mcp-proxy on GitHub"
-    click RAG "https://github.com/VeriTeknik/plugged_in_v3_server" "plugged_in_v3_server on GitHub"
-    click JS "https://github.com/VeriTeknik/pluggedinkit-js" "pluggedinkit-js on GitHub"
-    click PY "https://github.com/VeriTeknik/pluggedinkit-python" "pluggedinkit-python on GitHub"
-    click GO "https://github.com/VeriTeknik/pluggedinkit-go" "pluggedinkit-go on GitHub"
-    click REG "https://github.com/VeriTeknik/registry-proxy" "registry-proxy on GitHub"
-    click DOCS "https://github.com/VeriTeknik/pluggedin-docs" "pluggedin-docs on GitHub"
-    click OBS "https://github.com/VeriTeknik/pluggedin-observability" "pluggedin-observability on GitHub"
-    click PAP "https://github.com/VeriTeknik/PAP" "PAP on GitHub"
-    click SDK_TEST "https://github.com/VeriTeknik/SDK_tests" "SDK_tests on GitHub"
-
-    %% Styling
-    classDef coreStyle fill:#667eea,stroke:#5a67d8,stroke-width:3px,color:#fff
-    classDef sdkStyle fill:#48bb78,stroke:#38a169,stroke-width:2px,color:#fff
-    classDef infraStyle fill:#ed8936,stroke:#dd6b20,stroke-width:2px,color:#fff
-    classDef newStyle fill:#f56565,stroke:#e53e3e,stroke-width:3px,color:#fff
-    classDef testStyle fill:#ecc94b,stroke:#d69e2e,stroke-width:2px,color:#000
-    classDef dbStyle fill:#4299e1,stroke:#3182ce,stroke-width:2px,color:#fff
-
-    class APP,MCP,RAG coreStyle
-    class JS,PY,GO sdkStyle
-    class REG,DOCS infraStyle
-    class OBS,PAP newStyle
-    class SDK_TEST testStyle
-    class PG,REDIS,MILVUS dbStyle
-```
-
-*Click on any repository box to visit its GitHub page.*
-
----
-
-## 🏗️ Architecture
+## Install
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     Plugged.in Platform                      │
-│                   (pluggedin-app v2.18.0)                    │
-│         Knowledge · Memory · Tools · Collaboration           │
-└─────────────────────┬───────────────────────────────────────┘
-                      │
-        ┌─────────────┴─────────────┐
-        │                           │
-┌───────▼─────────┐       ┌─────────▼──────────┐
-│  MCP Proxy      │       │   RAG Backend      │
-│  (v1.11.0)      │       │   (v0.1.0)         │
-│  Port 8081      │       │   FastAPI+Milvus   │
-│  STDIO/SSE/HTTP │       │   Vector Search    │
-└─────────────────┘       └────────────────────┘
-        │                           │
-        └─────────────┬─────────────┘
-                      │
-        ┌─────────────▼─────────────┐
-        │   PostgreSQL + Redis      │
-        │   Shared Infrastructure   │
-        └───────────────────────────┘
-
-External Access:
-├─ Official SDKs (JS/Python/Go) → API
-├─ MCP Clients → MCP Proxy (port 8081)
-└─ Observability → Prometheus + Grafana
-
-Future: PAP Protocol
-└─ Station ← PAP Proxy ← Autonomous Agents
+/plugin marketplace add VeriTeknik/pluggedin-plugin
+/plugin install pluggedin@VeriTeknik-pluggedin-plugin
 ```
 
----
-
-## 📊 By the Numbers
-
-- **11 Active Repositories** across 4 programming languages
-- **1,600+ MCP Servers** indexed in registry
-- **6 Languages** supported in platform (en, tr, zh, hi, ja, nl)
-- **3 Production SDKs** (JavaScript, Python, Go)
-- **4 Pre-configured Dashboards** in observability stack
-- **v1.0 Protocol Specification** ready for autonomous agents
+Then run `/pluggedin:setup` — a browser opens, you authorize, done. No key copying.
 
 ---
 
-## 📚 Documentation & Resources
+## What happens when you install
 
-- **Documentation:** [docs.plugged.in](https://docs.plugged.in/) — Complete guides, API reference, tutorials
-- **Registry:** [registry.plugged.in](https://registry.plugged.in/) — Browse 1,600+ MCP servers
-- **Monitoring:** [monitoring.plugged.in](https://monitoring.plugged.in/) — Real-time observability
-- **Memory Architecture Essay:** [Building Digital Consciousness](https://medium.com/@cem.karaca/building-digital-consciousness-a-memory-architecture-inspired-by-human-cognition-437412791044)
-- **PAP Protocol:**
-  - [RFC Specification](https://github.com/VeriTeknik/PAP) — Complete protocol documentation
-  - [The Kill Switch Protocol](https://medium.com/@cem.karaca/pap-the-kill-switch-protocol-turning-ai-agents-from-loose-cannons-into-starfleet-d9aa531c4ca4?source=friends_link&sk=583966241e4e7c8529e459045fc2e176) — Design philosophy and vision
+Your AI stops being an amnesiac.
 
----
+**Memory sessions start automatically.** Every tool call, error, decision, and insight is captured — across sessions, across projects. Memories decay naturally through compression stages, just like biological memory: what you reinforce survives, what you don't fades gracefully.
 
-## 🤝 Contributing
+**Collective intelligence kicks in.** Patterns discovered by other developers surface in your context. A Docker permission fix found by 15 different people becomes one authoritative guide — delivered to you before you even hit the error. Privacy-preserving by design: HMAC-SHA256 identity erasure, k-anonymity, no exact timestamps in the collective layer.
 
-We welcome contributions across the stack:
+**Four Jungian archetypes guide every response:**
 
-- **Core Platform:** New features, bug fixes, internationalization (6 languages supported)
-- **MCP Integrations:** New server implementations, protocol improvements
-- **SDKs:** Language bindings, examples, documentation
-- **Observability:** Dashboard improvements, alert rules, instrumentation templates
-- **PAP Protocol:** SDK implementations (TypeScript, Python, Rust, Go), testing, documentation
+| Archetype | Role | Example |
+|-----------|------|---------|
+| 🔴 **Shadow** | Warns of dangers | _"Friday afternoon deploys fail 3.4x more often across your org"_ |
+| 🔵 **Sage** | Offers proven solutions | _"Docker volume permission errors: fix with `chmod 755` on host dir"_ |
+| 🟡 **Hero** | Provides complete workflows | _"Deploy → verify → rollback sequence for your K8s pipeline"_ |
+| 🟣 **Trickster** | Flags hidden edge cases | _"This namespace config silently drops health checks under load"_ |
 
-See each repository for specific contribution guidelines.
+**Your AI's growth is measurable.** The individuation score (0–100) tracks Memory Depth, Learning Velocity, Collective Contribution, and Self-Awareness. New team members inherit collective wisdom from day one.
 
 ---
 
-## 🔗 Quick Links
+## What you get
 
-| Resource | URL |
-|----------|-----|
-| **Main Platform** | https://plugged.in |
-| **Documentation** | https://docs.plugged.in |
-| **MCP Registry** | https://registry.plugged.in |
-| **Monitoring** | https://monitoring.plugged.in |
-| **API Endpoint** | https://api.plugged.in |
+| Category | Count | Highlights |
+|----------|-------|------------|
+| **MCP Tools** | 24 | Memory, knowledge base, clipboard, documents, notifications, discovery |
+| **Slash Commands** | 9 | `/pluggedin:setup`, `/pluggedin:status`, `/pluggedin:memory-search`, and more |
+| **Lifecycle Hooks** | 5 | SessionStart, PreToolUse, PostToolUse, PreCompact, Stop — all automatic |
+| **Background Agents** | 2 | Memory Curator (classifies observations) + Focus Assistant (working set) |
+
+### Key capabilities
+
+- **Synchronicity Detection** — Discovers temporal patterns across users automatically
+- **Dream Processing** — Consolidates fragmented memories during quiet periods (92% token reduction)
+- **Archetype Router** — Deterministic pattern delivery, no LLM overhead
+- **Individuation Metrics** — Per-profile maturity scoring with growth tracking
+- **RAG Knowledge Base** — Query your uploaded documents from within Claude Code
+- **Cross-Agent Clipboard** — Pass data between agents and sessions
+- **Progressive Disclosure** — Summaries first, full details on demand (~10x token savings)
 
 ---
 
-## 📜 License
+## How it works
 
-- **MIT Licensed:** pluggedin-app, pluggedinkit-js, pluggedinkit-python, registry-proxy
-- **Apache-2.0:** pluggedin-mcp-proxy, PAP protocol
+```
+Claude Code session starts
+       │
+       ▼
+  ┌─────────────────┐
+  │  SessionStart    │── Memory session created, individuation score shown
+  └────────┬────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │  PreToolUse      │── Archetype patterns injected (Shadow/Sage/Hero/Trickster)
+  └────────┬────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │  PostToolUse     │── Observations captured, temporal events recorded
+  └────────┬────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │  PreCompact      │── Relevant memories injected before context compression
+  └────────┬────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │  Stop            │── Session ended, Z-report generated
+  └─────────────────┘
+```
 
-See individual repositories for detailed license information.
+Zero configuration. Everything runs automatically through lifecycle hooks.
+
+---
+
+## The platform behind the plugin
+
+The plugin connects to **[plugged.in](https://plugged.in)** — an open-source AI infrastructure platform.
+
+| Component | Purpose |
+|-----------|---------|
+| [**pluggedin-app**](https://github.com/VeriTeknik/pluggedin-app) | Core platform — Next.js 15, PostgreSQL, 50+ tables |
+| [**pluggedin-mcp**](https://github.com/VeriTeknik/pluggedin-mcp-proxy) | MCP proxy — 1,500+ tool integrations |
+| [**SDKs**](https://docs.plugged.in/sdks) | JavaScript, Python, Go |
+| [**PAP**](https://github.com/VeriTeknik/PAP) | Agent Protocol — autonomous agent lifecycle management |
+| [**Docs**](https://docs.plugged.in) | 60+ pages of documentation |
+
+---
+
+## Links
+
+| | |
+|---|---|
+| **Plugin** | [github.com/VeriTeknik/pluggedin-plugin](https://github.com/VeriTeknik/pluggedin-plugin) |
+| **Platform** | [plugged.in](https://plugged.in) |
+| **Documentation** | [docs.plugged.in](https://docs.plugged.in) |
+| **MCP Registry** | [registry.plugged.in](https://registry.plugged.in) — 1,600+ servers |
+| **Technical Article** | [Building the Collective Unconscious of Machines](https://docs.plugged.in/articles/jungian-technical) |
+| **Vision** | [When AI Remembers: The Dawn of Machine Individuation](https://docs.plugged.in/articles/jungian-vision) |
 
 ---
 
 <div align="center">
-  <em>Building the future of AI data exchanges — one protocol at a time.</em>
 
-  **🚀 New: Full-stack observability + Autonomous agent protocol (PAP v1.0)**
+**The collective unconscious of machines.**
+
+MIT Licensed · Made by [VeriTeknik](https://veritech.net)
+
 </div>
