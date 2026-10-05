@@ -27,20 +27,24 @@ You probably use more than one AI: Claude, ChatGPT, Cursor, Codex, whatever come
 
 ---
 
-## The open-source v1 projects are retired
+## The open-source plugged.in projects
 
-The original open-source plugged.in projects are no longer maintained. They will not get new releases or fixes. The repositories stay public for reference under their existing licenses.
+The hosted service at [plugged.in](https://plugged.in) is moving to the new platform. The open-source repositories that run plugged.in today stay open source under their current licenses, and the community is welcome to carry them on: issues, pull requests and forks stay open, and `pluggedin-app` stays self-hostable.
 
-| Repository | What it was |
+| Repository | What it is |
 |---|---|
-| [pluggedin-app](https://github.com/VeriTeknik/pluggedin-app) | v1 platform (Next.js, PostgreSQL) |
+| [pluggedin-app](https://github.com/VeriTeknik/pluggedin-app) | Web app, API and MCP connector |
 | [pluggedin-mcp](https://github.com/VeriTeknik/pluggedin-mcp) | MCP hub and proxy |
 | [pluggedin-plugin](https://github.com/VeriTeknik/pluggedin-plugin) | Claude Code plugin |
-| [pluggedinkit-js](https://github.com/VeriTeknik/pluggedinkit-js) · [-python](https://github.com/VeriTeknik/pluggedinkit-python) · [-go](https://github.com/VeriTeknik/pluggedinkit-go) | Library API SDKs |
-| [PAP](https://github.com/VeriTeknik/PAP) | Plugged.in Agent Protocol |
-| [pluggedin-docs](https://github.com/VeriTeknik/pluggedin-docs) | v1 documentation |
+| [pluggedinkit-js](https://github.com/VeriTeknik/pluggedinkit-js) · [-python](https://github.com/VeriTeknik/pluggedinkit-python) · [-go](https://github.com/VeriTeknik/pluggedinkit-go) | SDKs |
+| [pluggedin-docs](https://github.com/VeriTeknik/pluggedin-docs) | Documentation site |
+| [registry-proxy](https://github.com/VeriTeknik/registry-proxy) | MCP registry proxy |
+| [PAP](https://github.com/VeriTeknik/PAP) · [pap-model-router](https://github.com/VeriTeknik/pap-model-router) · [pap-heartbeat-collector](https://github.com/VeriTeknik/pap-heartbeat-collector) · [compass-agent](https://github.com/VeriTeknik/compass-agent) | Plugged.in Agent Protocol, its router, collector and reference agent |
+| [pluggedin-observability](https://github.com/VeriTeknik/pluggedin-observability) | Observability stack |
 
-The new plugged.in is a separate, closed-source product. If you use v1 today, we will publish how to take your data with you before the new version launches.
+The cutover date will be announced in the repositories. At the cutover, the current service moves to v1.plugged.in and keeps running there until December 31, 2026. Hosted users can export their content there, and moving an account to the new platform is their choice. Details: [PROJECT_STATUS.md](https://github.com/VeriTeknik/pluggedin-app/blob/main/PROJECT_STATUS.md).
+
+The new plugged.in is a separate, closed-source product.
 
 ---
 
